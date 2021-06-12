@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@blog/*": ["src/blog/*"],
+      "@common/*": ["src/common/*"],
+      "@landing/*": ["src/landing/*"],
+      "@video/*": ["src/video/*"]
+    }
+  }
+}

@@ -1,10 +1,13 @@
-import React from 'react';
+import React from 'react'
+
 import HeaderNavigation from '@common/Navigation/HeaderNavigation';
 
-export default function Home() {
+const index = () => {
   return (
-    <div className="w-full">
+    <div>
       <HeaderNavigation />
     </div>
   );
 }
+
+export default index
